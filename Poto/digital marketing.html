@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Digital Marketing</title>
+    <link rel="stylesheet" href="digital.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+    <!-- Header with navigation links -->
+    <div class="header">
+        <h1>My Blog Digital Marketing</h1>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="galeri.php">Gallery</a>
+            <a href="https://wa.me/6281946730549">Contact</a>
+            <a href="login.php">Logout</a>
+        </nav>
+    </div>
+
+    <!-- Main Blog Content -->
+    <div class="container">
+        <div class="content">
+            <h2>Postingan</h2>
+            <ul>
+                <li>
+                    <h3>Post 1: Digital Marketing</h3>
+                    <img src="post1.jpg" alt="Post 1 Image" />
+                    <p>Digital marketing </p>
+                    <div class="button" onclick="unduhGambar1()">
+                        <button>Unduh Gambar</button>
+                        <script>
+                            /*************  ✨ Codeium Command ⭐  *************/
+                            /**
+                             * Creates a downloadable Word document (jpg) containing a brief introduction
+                             * about Afdhal Fauzan and triggers a download of the file named "CV Afdhal Fauzan.jpg".
+                             */
+                            
+                            /******  91d66903-ea7f-4753-b8d3-bd017b6456f9  *******/
+                                          function unduhGambar1 () {
+                                            var link = document.createElement("a");
+                                            link.href = "post1.jpg";
+                                            link.download = "Gmbar postingan 1.jpg";
+                                            link.click();
+                                            }
+                                        </script>
+                    <div class="text-slider">
+                        <p>ini adalah postingan pertama saya</p>
+                    </div>
+                    </div>
+                </li>
+                <li>
+                    <h3>Post 2: Sosial Media Business</h3>
+                    <img src="post2.jpg" alt="Post 2 Image" />
+                    <p>Business Online Shop</p>
+                </li>
+                <li>
+                    <h3>Post 3: Business dari app</h3>
+                    <img src="post3.jpeg" alt="Post 3 Image" />
+                    <p>Business dari berbagai aplikasi</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>For more information, follow <a href="https://instagram.com/afcode.id">By AfCode</a></p>
+    </div>
+
+</body>
+</html>
